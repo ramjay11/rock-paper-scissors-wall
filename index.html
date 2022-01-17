@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta @charset "UTF-8">
+	<title>Rock Paper Walleye</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>    
+   <header>
+    <h1>Rock Paper Walleye</h1>
+   </header>
+   <div class="score-board">
+     <div id="player-label" class="badge">Player-1</div>
+     <div id="computer-label" class="badge">Walleye</div>
+     <!--spans are inline elements, divs are block level elements -->
+     <span id="player-score">0</span>:<span id="computer-score">11</span>
+   </div>
+   <div class="result">
+     <p>Paper covers Rock, Rock still Wins!</p>
+   </div>
+   <div class="choices">
+     <div class="choice" id="r">
+       <img src="images/3.jpg" alt="">
+     </div>
+     <div class="choice" id="p">
+       <img src="images/4.jpg" alt="">
+     </div>
+     <div class="choice" id="w">
+       <img src="images/6.jpg" alt="">
+     </div>
+   </div>
+  
+   <p id="action-message">Tap to make your move.</p>
+
+    <footer class="footer">
+      <p>&copy; 2019 Gestalt Inc. A Trademark of Walleye™</p>
+   </footer>
+
+   <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
